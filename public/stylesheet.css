@@ -1,0 +1,38 @@
+.chat{
+    padding: 25px;
+}
+
+.chat_form {
+    margin-top: 45px;
+}
+
+#chat_list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#chat_list li{
+    list-style: none;
+}
+
+.chat_box{
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.chat_name{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    background-color: #fff;
+    color: hsl(205, 20%, 32%);
+    font-size: 0.8em;
+}
+
+.chat_text{
+    white-space: pre-wrap;
+}

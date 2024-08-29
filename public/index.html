@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <title>チャット</title>
+  </head>
+  <body>
+    <div class="chat">
+      <h1>チャット</h1>
+      <ul id="chat_list"></ul>
+      <form class="caht_form">
+        <input type="text" id="submit_name" placeholder="名前" />
+        <textarea id="submit_text" placeholder="メッセージ"></textarea>
+        <button type="button" id="submit_button" disabled>送信</button>
+      </form>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
